@@ -6,7 +6,7 @@
 
 body{
     width: 100%;
-    background: url('/statics/Images/back.jpg');
+    background: url('/GatherHub/images/middle.jpg');
     /*background-color: rgba(58, 56, 56, 0.541);*/
     /*background-repeat: no-repeat;
     background-attachment: fixed;
@@ -26,7 +26,7 @@ body{
 /* Header Styling */
 
 #header {
-    background: #3d00a073;
+    background: #3d00a0;
     transition: all 0.5s;
     z-index: 1;
     padding: 15px 0;
@@ -260,7 +260,7 @@ body{
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #3d00a073;
+    background-color: #3d00a0;
     color: white;
     font-weight: 600;
     z-index: 1;
