@@ -1,0 +1,137 @@
+/* Stylying */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3c00a0;
+  padding: 10px 20px;
+  color: white;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  z-index: 999;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.auth-buttons button {
+  background-color: white;
+  color: #3c00a0;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Products we offer */
+
+.services {
+    display: grid;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    /*box-shadow: 0 2px 4px rgba(0, 0, 0, 1);*/
+  }
+  
+  .services,
+  .service,
+  .service-list img {
+    max-width: 100%;
+  
+    border-radius: 8px;
+  }
+  
+  .services .service .service-list .description {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .services .service .service-list .description p {
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .services {
+    padding: 40px 20px;
+  }
+  
+  .services h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .service-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .service {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    text-align: center;
+    border-radius: 5px;
+    min-width: 200px;
+  }
+
+  .services button{
+    background-color: #27627b;
+    border-radius: 20px;
+    border: 1px solid #745a55;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+  }
+  
+  .services button:hover{
+    background-color: #27627b;
+    /*border: 1px solid #4caf50;*/
+  }
+
+  .services .service-list .service .description h3{
+    color: #745a55;
+  }
+
+  .services .service-list .service .description p{
+    color: #745a55;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3c00a0;
+    color: white;
+    font-weight: 600;
+}
